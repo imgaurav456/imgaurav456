@@ -1,46 +1,38 @@
-import numpy as np
+<h1 align="center">Hi 👋, I'm Gaurav Kumar</h1>
+<h3 align="center">The best way to predict the future is to create it.</h3>
+<img align="right" alt="coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif">
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=imgaurav456&label=Profile%20views&color=0e75b6&style=flat" alt="imgaurav456" /> </p>
 
-def calculate(numbers):
-    if len(numbers) != 9:
-        raise ValueError("List must contain nine numbers.")
-    
-    # Convert list to a 3x3 numpy array
-    matrix = np.array(numbers).reshape(3, 3)
-    
-    # Calculate mean, variance, standard deviation, max, min, and sum
-    mean_axis1 = matrix.mean(axis=0).tolist()
-    mean_axis2 = matrix.mean(axis=1).tolist()
-    mean_flat = matrix.mean().tolist()
-    
-    variance_axis1 = matrix.var(axis=0).tolist()
-    variance_axis2 = matrix.var(axis=1).tolist()
-    variance_flat = matrix.var().tolist()
-    
-    std_axis1 = matrix.std(axis=0).tolist()
-    std_axis2 = matrix.std(axis=1).tolist()
-    std_flat = matrix.std().tolist()
-    
-    max_axis1 = matrix.max(axis=0).tolist()
-    max_axis2 = matrix.max(axis=1).tolist()
-    max_flat = matrix.max().tolist()
-    
-    min_axis1 = matrix.min(axis=0).tolist()
-    min_axis2 = matrix.min(axis=1).tolist()
-    min_flat = matrix.min().tolist()
-    
-    sum_axis1 = matrix.sum(axis=0).tolist()
-    sum_axis2 = matrix.sum(axis=1).tolist()
-    sum_flat = matrix.sum().tolist()
-    
-    # Create the result dictionary
-    result = {
-        'mean': [mean_axis1, mean_axis2, mean_flat],
-        'variance': [variance_axis1, variance_axis2, variance_flat],
-        'standard deviation': [std_axis1, std_axis2, std_flat],
-        'max': [max_axis1, max_axis2, max_flat],
-        'min': [min_axis1, min_axis2, min_flat],
-        'sum': [sum_axis1, sum_axis2, sum_flat]
-    }
-    
-    return result
+<p align="left"> <a href="https://twitter.com/imgaurav" target="blank"><img src="https://img.shields.io/twitter/follow/imgaurav?logo=twitter&style=for-the-badge" alt="imgaurav" /></a> </p>
 
+- 🔭 I’m currently working on [Weather prediction](https://github.com/imgaurav456?tab=repositories)
+
+- 🌱 I’m currently learning **CRISP-DM, PDCA Cycle**
+
+- 👯 I’m looking to collaborate on **IOT related works**
+
+- 🤝 I’m looking for help with **Body Scanner for clothes**
+
+- 👨‍💻 All of my projects are available at [https://imgaurav456.github.io/](https://imgaurav456.github.io/)
+
+- 💬 Ask me about **R,Python**
+
+- 📫 How to reach me **nayakgaurav682@gmail.com**
+
+- 📄 Know about my experiences [https://imgaurav456.github.io/](https://imgaurav456.github.io/)
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/imgaurav" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="imgaurav" height="30" width="40" /></a>
+<a href="https://fb.com/gaurav nayak" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="gaurav nayak" height="30" width="40" /></a>
+<a href="https://instagram.com/emgaurav" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="emgaurav" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/nayaklogy 2.o" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="nayaklogy 2.o" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/emgaurav101" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="emgaurav101" height="30" width="40" /></a>
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://hadoop.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg" alt="hadoop" width="40" height="40"/> </a> <a href="https://hive.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=imgaurav456&show_icons=true&locale=en" alt="imgaurav456" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=imgaurav456&" alt="imgaurav456" /></p>
